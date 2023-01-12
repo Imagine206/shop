@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cfd9df;
+}
+#home{
+
+}
+.nav-bar-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.logo-search-bar{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+}
+input{
+    padding: 5px;
+    width: 100px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    transition: all ease-in 500ms;
+}
+input:focus{
+    width: 300px;
+}
+.nav-bar{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    display: noe;
+}
+.bars{
+    font-size: 2rem;
+    display: non;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list a{
+    color: black;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+.sign-btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+    transition: all ease 500ms;
+}
+.sign-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 500ms;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size:  2.5rem;
+}
+#shop-img{
+    
+    margin-top: 100px;
+}
+.slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1000px;
+    gap: 2rem;
+    align-items: center;
+}
+.fa-chevron-left,
+.fa-chevron-right{
+    font-size: 3rem;
+    transition: all ease 500ms;
+}
+.fa-chevron-left:hover,
+.fa-chevron-right:hover{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+.slides{
+    width: 1000px;
+    height: 600px;
+    border-radius: 5px;
+}
+.slide1{
+    background-image: url(/images/erica-zhou-IHpUgFDn7zU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slide2{
+    background-image: url(/images/pexels-polina-tankilevitch-3735641.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slide3{
+    background-image: url(/images/pexels-tirachard-kumtanom-733850.jpg);
+    background-size: cover;
+    background-position: center;
+}
